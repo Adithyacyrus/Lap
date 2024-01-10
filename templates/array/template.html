@@ -1,0 +1,10 @@
+<!-- DO NOT DELETE
+    Access GraphQL query data with {{_.data}}
+    Access the widget id with {{_.id}}
+-->
+<ul>
+    {{#each content}}
+    <li>Item #{{@index}}</li>
+    {{/each}}
+</ul>
+{{{ json _.data }}}

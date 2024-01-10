@@ -1,0 +1,38 @@
+{
+  "name": "big-widget",
+  "version": "1.2.1",
+  "description": "A tool for building BigCommerce Page Builder widget templates",
+  "main": "bin/big-widget",
+  "bin": {
+    "@ppuente/big-widget": "bin/big-widget",
+    "big-widget": "bin/big-widget"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "templates/*",
+    "util/*"
+  ],
+  "keywords": [
+    "bigcommerce",
+    "page builder",
+    "widget",
+    "big-widget"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Patrick Puente",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.0",
+    "execa": "^5.0.0",
+    "inquirer": "^8.0.0",
+    "ncp": "^2.0.0",
+    "yargs": "^16.2.0"
+  }
+}
